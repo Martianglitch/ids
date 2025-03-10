@@ -27,8 +27,8 @@
         }
        
         .header .menu {
-        flex-grow: 1; /* Allows the menu area to take up space */
-        text-align: center; /* Centers the menu horizontally */
+    flex-grow: 1; /* Allows the menu area to take up space */
+    text-align: center; /* Centers the menu horizontally */
     }
 
     .banner {
@@ -64,13 +64,13 @@
 .navbar-nav .nav-link {
     color: #fcfafa;
     transition: color 0.3s ease, background-color 0.3s ease; /* hover transition */
-    border-radius: 20px;
-}
+    }
 
 .navbar-nav .nav-link:hover {
     color: black; /* Text color changes to white */
     background-color: #eee9e9; /* Background becomes slightly darker */
-    border-radius: 5px; /* Optional: Adds rounded corners for a smooth effect */
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 .search-bar {
@@ -147,6 +147,7 @@
     </style>
 
 </head>
+
 <body>
     <div class="header d-flex justify-content-between align-items-center">
         <div class="d-flex align-items-center " style="padding-left: 210px;"> 
@@ -181,15 +182,15 @@
     <div class="banner d-flex justify-content-between align-items-center p-3 bg-light border-bottom">
         <!-- Left: Integrated Defence Staff Emblem -->
         <div class="d-flex align-items-center ms-5" style="height: 100px;">
-            <img src="ids/ids.png" alt="Integrated Defence Staff Logo" class="logo">
+            <img src="ids.png" alt="Integrated Defence Staff Logo" class="logo">
             <p class="ms-2 mb-0"></p>
         </div>
     
         <!-- Center: G20 and Azadi Logos -->
         <div class="d-flex justify-content-between align-items-center">
-            <img src="ids/g20.jpg" alt="G20 India Logo" class="logo mx-3">
-            <img src="ids/akam.png" alt="Azadi Ka Amrit Mahotsav Logo" class="logo mx-3">
-            <img src="ids/goi.png" alt="Government of India Emblem" class="logo">
+            <img src="g20.jpg" alt="G20 India Logo" class="logo mx-3">
+            <img src="akam.png" alt="Azadi Ka Amrit Mahotsav Logo" class="logo mx-3">
+            <img src="goi.png" alt="Government of India Emblem" class="logo">
             <p class="ms-2 mb-0"></p>
         </div>    
         
@@ -493,7 +494,7 @@
         <img src="..." class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>
           <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
       </div>
