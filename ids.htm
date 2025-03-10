@@ -8,7 +8,7 @@
 
     <style>
         .header {
-            background-color:  rgb(76,52,60); 
+            background-color: #49313f; 
             color: white;
             padding: 10px;
             height: 43px;
@@ -64,13 +64,19 @@
 .navbar-nav .nav-link {
     color: #fcfafa;
     transition: color 0.3s ease, background-color 0.3s ease; /* hover transition */
-    }
+    
+}
 
 .navbar-nav .nav-link:hover {
     color: black; /* Text color changes to white */
     background-color: #eee9e9; /* Background becomes slightly darker */
     border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
+    border-bottom-left-radius: 15px;    
+    
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
 }
 
 .search-bar {
@@ -167,8 +173,8 @@
     
             <!-- Light/Dark mode toggle buttons -->
             <div class="ms-3">
-                <button class="btn btn-dark btn-sm">🌙</button>
-                <button class="btn btn-light btn-sm">☀️</button>
+                <button class="btn btn-dark btn-sm">🌚</button>
+                <button class="btn btn-light btn-sm">🌞</button>
             </div>
         </div>
     
